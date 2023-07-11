@@ -1,6 +1,8 @@
 # UltrasoundImagingData
 Data07102023_1.zip to Data07102023_8.zip contains all the 500 images and the image pixel data. 
 250 of them are the image with 1 target and the rest have no target.
+In each image pixel data file, the first 3 lines are the headers to explain the parameters used for CPWC imaging and the target information. 
+Image pixel data start from the 9th line.
 
 GeneratingImageData.m, CPWC.m and cyst_pht.m are the MATLAB code to generate the CPWC imaging data. GeneratingImageData.m is the top level code.
 
